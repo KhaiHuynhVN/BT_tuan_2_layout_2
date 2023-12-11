@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <link rel="stylesheet" href="./grid-system.css" />
+      <link rel="stylesheet" href="./style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+         rel="stylesheet"
+      />
+      <title>BT tuần 2 layout 2</title>
+   </head>
+   <body>
+      <div id="root">
+         <header class="header-wrapper">
+            <div class="header-wrapper__inner grid wide">
+               <div class="header-wrapper__inner-top">
+                  <div class="header-wrapper__logo-wrapper">
+                     <img src="./assets/icons/logo.svg" alt="" />
+                     <img class="sub-logo" src="./assets/icons/logo2.svg" alt="" />
+                  </div>
+
+                  <nav class="header-wrapper__nav-wrapper">
+                     <ul>
+                        <li>home</li>
+                        <li>hotels</li>
+                        <li>restaurants</li>
+                        <li>tours</li>
+                        <li>destinations</li>
+                        <li>activities</li>
+                        <li>contact</li>
+                     </ul>
+                  </nav>
+
+                  <div class="header-wrapper__avatar-wrapper">
+                     <div class="avatar-wrapper__info-wrapper">
+                        <span class="info-wrapper__nickname">Holla,</span>
+                        <span class="info-wrapper__name">Ales Nesetril</span>
+                     </div>
+
+                     <div class="avatar-wrapper__avatar-container">
+                        <img src="./assets/images/avatar.png" alt="" />
+                        <div class="avatar-container__online-icon"></div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="header-wrapper__hero-wrapper">
+                  <h1 class="hero-wrapper__title">Discover the most engaging places</h1>
+                  <button>
+                     <img src="./assets/icons/global-icon.svg" alt="" />
+                     Discover on 3D Globe
+                  </button>
+               </div>
+
+               <div class="header-wrapper__toolbar">
+                  <ul>
+                     <li class="toolbar-item">
+                        <img src="./assets/icons/location-icon.svg" alt="" />
+                        <div class="toolbar-item__title-wrapper">
+                           <span class="title-wrapper__sub-title">Location</span>
+                           <span class="title-wrapper__title">Explore nearby destinations</span>
+                        </div>
+                     </li>
+                     <li class="toolbar-item">
+                        <img src="./assets/icons/activity-icon.svg" alt="" />
+                        <div class="toolbar-item__title-wrapper">
+                           <span class="title-wrapper__sub-title">Activity</span>
+                           <span class="title-wrapper__title">All Activities</span>
+                        </div>
+                     </li>
+                     <li class="toolbar-item">
+                        <img src="./assets/icons/calendar-icon.svg" alt="" />
+                        <div class="toolbar-item__title-wrapper">
+                           <span class="title-wrapper__sub-title">When</span>
+                           <span class="title-wrapper__title">Choose a Date</span>
+                        </div>
+                     </li>
+                     <li class="toolbar-item">
+                        <img src="./assets/icons/guests-icon.svg" alt="" />
+                        <div class="toolbar-item__title-wrapper">
+                           <span class="title-wrapper__sub-title">Guests</span>
+                           <span class="title-wrapper__title">1 guest</span>
+                        </div>
+                     </li>
+                  </ul>
+                  <div class="header-wrapper__toolbar-search-button">
+                     <button>
+                        <img src="./assets/icons/search-icon.svg" alt="" />
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </header>
+
+         <div class="content">
+            <section class="section-wrapper">
+               <div class="section-wrapper__inner grid wide">
+                  <div class="section-wrapper__title-wrapper">
+                     <h2 class="section-wrapper__title">Popular Destinations</h2>
+                  </div>
+
+                  <div class="section-wrapper__image-container">
+                     <div class="image-container-item">
+                        <img src="./assets/images/image-1.png" alt="" />
+
+                        <div class="image-container-item__content-wrapper">
+                           <span class="content-wrapper__title"> Big Sur </span>
+                           <span class="content-wrapper__location-name"> California, USA </span>
+                        </div>
+                     </div>
+                     <div class="image-container-item">
+                        <img src="./assets/images/image-2.png" alt="" />
+
+                        <div class="image-container-item__content-wrapper">
+                           <span class="content-wrapper__title"> Prescott </span>
+                           <span class="content-wrapper__location-name"> Arizona, USA </span>
+                        </div>
+                     </div>
+                     <div class="image-container-item">
+                        <img src="./assets/images/image-3.png" alt="" />
+
+                        <div class="image-container-item__content-wrapper">
+                           <span class="content-wrapper__title"> Fort Mayers </span>
+                           <span class="content-wrapper__location-name"> Florida, USA </span>
+                        </div>
+                     </div>
+                     <div class="image-container-item">
+                        <img src="./assets/images/image-4.png" alt="" />
+
+                        <div class="image-container-item__content-wrapper">
+                           <span class="content-wrapper__title"> Tucson </span>
+                           <span class="content-wrapper__location-name"> Arizona, USA </span>
+                        </div>
+                     </div>
+                     <div class="image-container-item">
+                        <img src="./assets/images/image-5.png" alt="" />
+
+                        <div class="image-container-item__content-wrapper">
+                           <span class="content-wrapper__title"> St. Joseph </span>
+                           <span class="content-wrapper__location-name"> Michigan, USA </span>
+                        </div>
+                     </div>
+                     <div class="image-container-item">
+                        <img src="./assets/images/image-6.png" alt="" />
+
+                        <div class="image-container-item__content-wrapper">
+                           <span class="content-wrapper__title"> Madrid </span>
+                           <span class="content-wrapper__location-name"> Spain </span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section class="section-wrapper">
+               <div class="section-wrapper__inner grid wide">
+                  <div class="section-wrapper__title-wrapper">
+                     <h2 class="section-wrapper__title">Hotels and Restaurants</h2>
+                     <button>View all <img src="./assets/icons/arrow-right-icon.svg" alt="" /></button>
+                  </div>
+
+                  <div class="section-wrapper__hotelsAndRestaurants-container">
+                     <div class="hotelsAndRestaurants-container-item">
+                        <img class="hotelsAndRestaurants-container-item__img" src="./assets/images/image-7.png" alt="" />
+
+                        <div class="hotelsAndRestaurants-container-item__content">
+                           <span class="hotelsAndRestaurants-container-item__content-title">Monastero Santa Rosa Hotel & Spa</span>
+
+                           <div class="hotelsAndRestaurants-container-item__content-info">
+                              <div class="content-info__location">
+                                 <img src="./assets/icons/location-icon-2.svg" alt="" />
+                                 <span>Salerno, Italy </span>
+                              </div>
+
+                              <div class="content-info__rating">
+                                 <img src="./assets/icons/star-icon.svg" alt="" />
+                                 <img src="./assets/icons/star-icon.svg" alt="" />
+                                 <img src="./assets/icons/star-icon.svg" alt="" />
+                                 <img src="./assets/icons/star-icon.svg" alt="" />
+                                 <img src="./assets/icons/star-icon.svg" alt="" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="hotelsAndRestaurants-container-item">
+                        <img class="hotelsAndRestaurants-container-item__img" src="./assets/images/image-8.png" alt="" />
+
+                        <div class="hotelsAndRestaurants-container-item__content">
+                           <span class="hotelsAndRestaurants-container-item__content-title">Grand Hotel Tremezzo</span>
+
+                           <div class="hotelsAndRestaurants-container-item__content-info">
+                              <div class="content-info__location">
+                                 <img src="./assets/icons/location-icon-2.svg" alt="" />
+                                 <span>Lake Como, Italy </span>
+                              </div>
+
+                              <div class="content-info__rating">
+                                 <img src="./assets/icons/star-icon.svg" alt="" />
+                                 <img src="./assets/icons/star-icon.svg" alt="" />
+                                 <img src="./assets/icons/star-icon.svg" alt="" />
+                                 <img src="./assets/icons/solid-star-icon.svg" alt="" />
+                                 <img src="./assets/icons/solid-star-icon.svg" alt="" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="hotelsAndRestaurants-container-item">
+                        <img class="hotelsAndRestaurants-container-item__img" src="./assets/images/image-9.png" alt="" />
+
+                        <div class="hotelsAndRestaurants-container-item__content">
+                           <span class="hotelsAndRestaurants-container-item__content-title">The Oberoi Udaivilas, Udaipur</span>
+
+                           <div class="hotelsAndRestaurants-container-item__content-info">
+                              <div class="content-info__location">
+                                 <img src="./assets/icons/location-icon-2.svg" alt="" />
+                                 <span>Udaipur, India</span>
+                              </div>
+
+                              <div class="content-info__rating">
+                                 <img src="./assets/icons/star-icon.svg" alt="" />
+                                 <img src="./assets/icons/star-icon.svg" alt="" />
+                                 <img src="./assets/icons/star-icon.svg" alt="" />
+                                 <img src="./assets/icons/star-icon.svg" alt="" />
+                                 <img src="./assets/icons/solid-star-icon.svg" alt="" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="hotelsAndRestaurants-container-item">
+                        <img class="hotelsAndRestaurants-container-item__img" src="./assets/images/image-10.png" alt="" />
+
+                        <div class="hotelsAndRestaurants-container-item__content">
+                           <span class="hotelsAndRestaurants-container-item__content-title">AKA Beverly Hills</span>
+
+                           <div class="hotelsAndRestaurants-container-item__content-info">
+                              <div class="content-info__location">
+                                 <img src="./assets/icons/location-icon-2.svg" alt="" />
+                                 <span>Los Angeles, United States</span>
+                              </div>
+
+                              <div class="content-info__rating">
+                                 <img src="./assets/icons/star-icon.svg" alt="" />
+                                 <img src="./assets/icons/star-icon.svg" alt="" />
+                                 <img src="./assets/icons/star-icon.svg" alt="" />
+                                 <img src="./assets/icons/solid-star-icon.svg" alt="" />
+                                 <img src="./assets/icons/solid-star-icon.svg" alt="" />
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section class="section-wrapper">
+               <div class="section-wrapper__inner grid wide">
+                  <div class="section-wrapper__title-wrapper">
+                     <h2 class="section-wrapper__title">Travel Tips and Advice</h2>
+                     <button>View all <img src="./assets/icons/arrow-right-icon.svg" alt="" /></button>
+                  </div>
+
+                  <div class="section-wrapper__card-3-container">
+                     <div class="card-3-container__item">
+                        <img class="card-3-container__item-img" src="./assets/images/image-11.png" alt="" />
+
+                        <div class="card-3-container__item-content">
+                           <span class="item-content__title">East Village Ice Cream Crawl </span>
+                           <span class="item-content__content"
+                              >We will stop at five different world-class ice cream shops on this 1.5 mile 1.5 hour tour. At each ice cream store
+                              we'll explore the story behind the business and see what makes the ice cream unique as you savor every…</span
+                           >
+
+                           <div class="item-content__info">
+                              <div class="item-content__info-item">
+                                 <img src="./assets/icons/calendar-icon-2.svg" alt="" />
+                                 Today
+                              </div>
+                              <div class="item-content__info-item">
+                                 <img src="./assets/icons/guests-icon-2.svg" alt="" />
+                                 Maria Philips
+                              </div>
+                              <div class="item-content__info-item">
+                                 <img src="./assets/icons/chat-icon.svg" alt="" />
+                                 2
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card-3-container__item">
+                        <img class="card-3-container__item-img" src="./assets/images/image-12.png" alt="" />
+
+                        <div class="card-3-container__item-content">
+                           <span class="item-content__title">Brooklyn Bridge cinematic photo walk</span>
+                           <span class="item-content__content"
+                              >This experience takes place at the Brooklyn Bridge Park and Brooklyn Bridge, but I’m always open to capture clients at
+                              different locations upon request for an additional charge.
+                           </span>
+
+                           <div class="item-content__info">
+                              <div class="item-content__info-item">
+                                 <img src="./assets/icons/calendar-icon-2.svg" alt="" />
+                                 Today
+                              </div>
+                              <div class="item-content__info-item">
+                                 <img src="./assets/icons/guests-icon-2.svg" alt="" />
+                                 James Calzoni
+                              </div>
+                              <div class="item-content__info-item">
+                                 <img src="./assets/icons/chat-icon.svg" alt="" />
+                                 17
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section class="section-wrapper">
+               <div class="section-wrapper__inner grid wide">
+                  <div class="section-wrapper__title-wrapper">
+                     <h2 class="section-wrapper__title">Activities</h2>
+                     <button>View all<img src="./assets/icons/arrow-right-icon.svg" alt="" /></button>
+                  </div>
+
+                  <div class="section-wrapper__card-4-container">
+                     <div class="card-4-container__item">
+                        <img src="./assets/images/image-13.png" alt="" />
+                        <div class="card-4-container__item-title">Sailing</div>
+                     </div>
+                     <div class="card-4-container__item">
+                        <img src="./assets/images/image-15.png" alt="" />
+                        <div class="card-4-container__item-title">Climbing</div>
+                     </div>
+                     <div class="card-4-container__item">
+                        <img src="./assets/images/image-16.png" alt="" />
+                        <div class="card-4-container__item-title">Skiing</div>
+                     </div>
+                     <div class="card-4-container__item">
+                        <img src="./assets/images/image-17.png" alt="" />
+                        <div class="card-4-container__item-title">Hiking</div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section class="section-wrapper">
+               <div class="section-wrapper__inner about-us">
+                  <div class="section-wrapper__content-wrapper">
+                     <span class="content-wrapper__title">About Us</span>
+                     <div class="content-wrapper__content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien justo. Nulla facilisis tristique imperdiet.
+                        Nullam a placerat odio. Sed in ex augue. Aliquam porta consectetur lorem sit amet ultrices. Class aptent taciti sociosqu ad
+                        litora torquent per conubia nostra, per inceptos himenaeos.
+                     </div>
+                     <button>Read more <img src="./assets/icons/arrow-right-icon.svg" alt="" /></button>
+                  </div>
+
+                  <img class="section-wrapper__img" src="./assets/images/image-14.png" alt="" />
+               </div>
+            </section>
+         </div>
+
+         <footer class="footer-wrapper">
+            <div class="footer-wrapper__inner grid wide">
+               <div class="row">
+                  <div class="col col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                     <div class="col-inner">
+                        <div class="footer-wrapper__logo-wrapper">
+                           <img src="./assets/icons/logo-3.svg" alt="" />
+                           <img class="sub-logo" src="./assets/icons/logo2.svg" alt="" />
+                        </div>
+
+                        <span class="footer-wrapper__content">We always make our customers happy by providing as many choises as possible</span>
+
+                        <div class="footer-wrapper__social">
+                           <img class="footer-wrapper__social-icon" src="./assets/icons/facebook-icon.svg" alt="" />
+                           <img class="footer-wrapper__social-icon" src="./assets/icons/twitter-icon.svg" alt="" />
+                           <img class="footer-wrapper__social-icon" src="./assets/icons/instagram-icon.svg" alt="" />
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                     <div class="footer-menu-wrapper col-inner grid">
+                        <div class="row">
+                           <div class="col col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                              <div class="footer-menu">
+                                 <span class="footer-menu-title">About</span>
+                                 <nav class="footer-menu-container">
+                                    <ul>
+                                       <li>About Us</li>
+                                       <li>Features</li>
+                                       <li>News</li>
+                                       <li>Menu</li>
+                                    </ul>
+                                 </nav>
+                              </div>
+                           </div>
+                           <div class="col col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                              <div class="footer-menu">
+                                 <span class="footer-menu-title">Company</span>
+                                 <nav class="footer-menu-container">
+                                    <ul>
+                                       <li>Why 2rism</li>
+                                       <li>Partner With Us</li>
+                                       <li>FAQ</li>
+                                       <li>Blog</li>
+                                    </ul>
+                                 </nav>
+                              </div>
+                           </div>
+                           <div class="col col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                              <div class="footer-menu">
+                                 <span class="footer-menu-title">Support</span>
+                                 <nav class="footer-menu-container">
+                                    <ul>
+                                       <li>Account</li>
+                                       <li>Support Center</li>
+                                       <li>Feedback</li>
+                                       <li>Contact Us</li>
+                                    </ul>
+                                 </nav>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                     <div class="col-inner">
+                        <div class="subscribe">
+                           <span class="subscribe-title">Subscribe on our destination review newsletters</span>
+                           <form class="subscribe-form">
+                              <div class="subscribe-form-input">
+                                 <img class="subscribe-form-input__letter-icon" src="./assets/icons/letter-icon.svg" alt="" />
+
+                                 <div class="subscribe-form-input__info">
+                                    <span class="subscribe-form-input__info-placeholder">Your Email</span>
+                                    <span class="subscribe-form-input__info-content">johndoe@gmail.com</span>
+                                 </div>
+                              </div>
+
+                              <button><img src="./assets/icons/arrow-right-icon-2.svg" alt="" /></button>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </div>
+   </body>
+</html>
